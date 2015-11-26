@@ -10,7 +10,7 @@
 // http://ionden.com/a/plugins/licence-en.html
 // =====================================================================================================================
 
-;(function ($, document, window, navigator, undefined) {
+module.exports = (function ($, document, window, navigator, undefined) {
     "use strict";
 
     // =================================================================================================================
@@ -2304,4 +2304,4 @@
             };
     }());
 
-} (jQuery, document, window, navigator));
+});
